@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<view
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		class="ai.belajaranimasi.MainActivity$MyVideo"
+		android:id="@+id/mainanVideo"/>
+
+	<View
+		android:background="@drawable/gradient_cool"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:alpha="1"
+		android:id="@+id/mainanGradBg"/>
+
+	<View
+		android:background="@drawable/mapscheme"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:alpha="0.2"
+		android:id="@+id/mainanmapscheme"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical"
+		android:id="@+id/mainanTxt"
+		android:layout_marginTop="50dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="Where Are You?"
+			android:textSize="35sp"
+			android:textColor="#FFFFFF"
+			android:gravity="center_horizontal"
+			android:textStyle="bold"
+			android:paddingRight="10dp"
+			android:paddingLeft="10dp"
+			android:id="@+id/mainanTextView1"
+			android:alpha="0"
+			android:typeface="serif"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			android:textColor="#FFFFFF"
+			android:textSize="15sp"
+			android:paddingRight="20dp"
+			android:paddingLeft="20dp"
+			android:layout_marginTop="10dp"
+			android:id="@+id/mainanTextView2"
+			android:alpha="0"
+			android:typeface="serif"/>
+
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_below="@id/mainanTxt">
+
+		<ImageView
+			android:src="@drawable/blur_shadows"
+			android:layout_height="60dp"
+			android:layout_width="match_parent"
+			android:layout_marginTop="130dp"
+			android:scaleType="fitXY"
+			android:alpha="0"
+			android:layout_marginRight="30dp"
+			android:layout_marginLeft="30dp"
+			android:id="@+id/blur_shadow"/>
+
+		<RelativeLayout
+			android:layout_height="60dp"
+			android:layout_width="60dp"
+			android:clickable="true"
+			android:background="@drawable/selector_location_button"
+			android:textColor="#FFFFFF"
+			android:orientation="vertical"
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"
+			android:id="@+id/mainanButton"
+			android:alpha="0"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="100dp">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_centerVertical="true"
+				android:gravity="center"
+				android:id="@+id/button_labelicon"
+				android:alpha="0">
+
+				<ImageView
+					android:layout_height="30dp"
+					android:layout_width="30dp"
+					android:tint="#ffffff"
+					android:src="@drawable/ic_arrow_location"
+					android:layout_centerVertical="true"
+					android:id="@+id/mainanImageView1"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="Enable Location Service"
+					android:layout_toRightOf="@id/mainanImageView1"
+					android:layout_centerVertical="true"
+					android:layout_marginLeft="20dp"
+					android:textColor="#FFFFFF"
+					android:typeface="serif"/>
+
+			</LinearLayout>
+
+			<ProgressBar
+				android:layout_height="30dp"
+				android:layout_width="30dp"
+				android:layout_centerInParent="true"
+				android:alpha="0"
+				android:id="@+id/mainanProgressBar1"/>
+
+		</RelativeLayout>
+
+	</RelativeLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="Agus Ibrahim"
+		android:layout_margin="10dp"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true"
+		android:textStyle="bold"
+		android:textColor="#FFFFFF"
+		android:shadowRadius="3"
+		android:shadowColor="#222222"/>
+
+</RelativeLayout>
+
