@@ -14,6 +14,11 @@ import android.graphics.drawable.Drawable.*;
 import android.media.*;
 import android.content.Context;
 
+/*
+Agus Ibrahim
+http://fb.me/mynameisagoes
+*/
+
 public class MainActivity extends Activity
 {
 	View txt_title,txt_desc, btn, btnlabel, gradbg, txt_header, mapsch;
