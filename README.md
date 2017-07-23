@@ -6,4 +6,5 @@
 ![alt text](https://thumbs.gfycat.com/ConstantCrazyArmedcrab-size_restricted.gif "My Animation")
 > [See HQ Animation](https://gfycat.com/ConstantCrazyArmedcrab)
 
-
+### Download APK
+https://github.com/agusibrahim/CoolAnimation4Beginner/releases/download/1/CoolAnimation.apk
